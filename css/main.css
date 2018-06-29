@@ -1,20 +1,8 @@
 body{
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-/*
-.logo {
-    background-image: url(../assets/images/logo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 15rem;
-    position: absolute;
-    margin:0;
-    top: 15rem;
-} */
-
-/*******HERO PAGE*********/
+/*HERO PAGE*/
 #line-menu {
     display: inline-flex;
     width: 100%;
@@ -44,7 +32,7 @@ body{
     padding-top: 19px;
     padding-left: 8px;
     color: white;
-    /*border: 1px solid blue;*/
+     /*border: 1px solid blue;*/
 }
 
 #card-btns{
@@ -57,9 +45,6 @@ body{
     top: .6em;
     padding-left: 0;
 }
-/*hidden{
-    display: none;
-}*/
 
 .navbar-brand {
     margin-right: 0;
@@ -87,7 +72,8 @@ main.border div.jumbotron{
     position: relative;
     left: 2em;
 }
-/* add View */
+
+ /* add View */
 #h2-user-view{
     padding-top: 20%;
 }
@@ -96,14 +82,14 @@ main.border div.jumbotron{
     margin-top: 3em;
 }
 
-/*Books Section*/
+ /*Books Section*/
 
 div.left {
     float: left;
     width: 50%;
     height: 50%;
     text-align: center;
-
+    padding-left: 1.5%;
 }
 
 div.right {
@@ -134,14 +120,32 @@ div#books-motivational {
 
 .title-info {
     display: none;
+    font-size: 40px;
 }
 
-/****************HEADER-HERO**********************/
+ /*HEADER-HERO*/
 div#song > iframe{
     margin-top: 15px;
 }
 
-/* Bordes del menu hamburguesa */
+ /* Bordes del menu hamburguesa */
 .navbar-toggler {
     border-width: 0;
+}
+
+div.mgn-tp {
+    margin-top: 30px;
+}
+
+.books {
+    margin: 0;
+    padding-top: 30px;
+}
+
+.bored-bk {
+    margin-top: 30px;
+}
+
+.goo-font {
+    font-family: 'Hammersmith One', sans-serif;
 }

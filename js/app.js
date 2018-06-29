@@ -63,8 +63,21 @@ function music(clave){
 $(document).ready(function(){
     //INICIALIZACION CARRUSEL
     $('.carousel').carousel({
-        interval: 2000
+        interval: 3000
     })
+
+        //Función like
+$('.fa-star').click(function(){
+    var elemSelecc = $(event.currentTarget);
+    elemSelecc.css('color', '#EFF20C');
+    swal("Agregado a favoritos", "", "success");
+});
+
+//Remover click
+$('.fa-star').dblclick(function(){
+    var elemSelecc = $(event.currentTarget);
+    elemSelecc.css('color', 'grey');
+});
 
     //INICIO CÓDIGO VIDEO
     var apiKey = 'AIzaSyDEVJfSyHmltO9EDu1Q1MEFqGDl6xEuNLM';
