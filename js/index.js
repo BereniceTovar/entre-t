@@ -1,7 +1,7 @@
-//  Variable global con la información del usuario 
+//  Variable global con la información del usuario
 var userInfo = {};
 
-// Función para guardar la info de los usuarios 
+// Función para guardar la info de los usuarios
 function saveUser(user) {
     var userInfo = {
         uid: user.uid,
@@ -67,10 +67,10 @@ firebase.auth().onAuthStateChanged(function(user) {
 
 
 
-/* Variable global con la información del usuario 
+/* Variable global con la información del usuario
 var userInfo = {}; */
 
-/* Función para guardar la info de los usuarios 
+/* Función para guardar la info de los usuarios
 function saveUser(user) {
     var userInfo = {
         uid: user.uid,
