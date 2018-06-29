@@ -4,7 +4,7 @@
 * **Curso:** _Entre-T_
 ***
 
-## Objetivo del producto;
+## Objetivo del producto:
 #####
 * Enfocada al Entretenimiento.
 * Consumo de API's.
